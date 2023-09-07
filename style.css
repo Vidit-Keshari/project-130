@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    margin-top: 0px;
+    font-size: large;
+    font-weight: 700;
+    box-shadow: 0px 7px 30px orangered;
+}
+
+body {
+    background-size: cover;
+}
+
+.header:hover {
+    background-color: purple;
+    color: lawngreen;
+    border-color: crimson;
+    border-width: 1px;
+    box-shadow: 0px 8px 25px firebrick;
+}
+
+.btn-danger {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.note:hover {
+    color: lightsalmon;
+    background-color: blue;
+    box-shadow: 0px 0px 30px mediumblue;
+}
+
+.note {
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 0px 0px 30px aquamarine;
+}
+
+#song_name {
+    box-shadow: 0px 7px 45px rgb(219, 209, 65);
+}
+
+#song_name:hover {
+    box-shadow: 0px 7px 45px rgb(196, 22, 60);
+    color: forestgreen;
+    background-color: indigo;
+    border-width: 1px;
+    border-color: indianred;
+}
+
+canvas {
+    border: 5px blue ridge;
+}
